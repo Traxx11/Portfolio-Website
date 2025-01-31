@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <title>Achyuth A</title>
+</head>
+<body>
+    <div id="home">
+        <div class="container1">
+            <nav>
+                <a href="#"><img src="images/Untitled-logo.png" class="logo"></a>
+                <ul>
+                    <li><a href="#home">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#projects">PROJECTS</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                </ul>
+            </nav>
+            <div class="intro">
+                Hi, I'm Achyuth <br>and I am a <span></span>
+            </div>
+            <div class="cvdown">
+                <a href="./pdf/RESUME_August_2024.pdf" download="RESUME_August_2024.pdf">
+                    <button>Download my CV</button>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div id="about">
+        <div class="container2">
+            <div class="row">
+                <div class="about1">
+                    <img src="images/20240811170947_IMG_7762.JPG" class="aboutimg">
+                </div>
+                <div class="about2">
+                    <h2 class="aboutheading">About Me</h2>
+                    <p class="aboutcontent">I'm Achyuth, a front-end developer passionate about creating visually engaging and responsive web applications. My journey in web development started with a love for design, and I am currently enhancing my skills in HTML, CSS, and JavaScript.
+                        <br><br>While my focus is on front-end development, I aspire to transition into full-stack development. Outside of coding, I enjoy videography, editing, and motorsports.
+                    </p>
+                    <div class="tabs-title">
+                        <p class="tablinks skill active-link" onclick="opentab('.skill', '.skilltab')">Skills</p>
+                        <p class="tablinks experience" onclick="opentab('.experience', '.experiencetab')">Experience</p>
+                        <p class="tablinks education" onclick="opentab('.education', '.educationtab')">Education</p>
+                    </div>
+
+                    <div class="tab-content skilltab active-tab">
+                        <ul>
+                            <li class="skillList"><span class="skillname">Web Development</span><br>Design and developing responsive websites</li>
+                            <li class="skillList"><span class="skillname">Designer</span><br>Creative and beautiful graphic designs and videos</li>
+                            <li class="skillList"><span class="skillname">Editor</span><br>Adobe Premier Pro and After Effects</li>
+                        </ul>
+                    </div>
+                    <div class="tab-content experiencetab">
+                        <ul>
+                            <li class="experiences"><span class="experiencename">Sports Council Media Team</span><br>College Of Engineering Trivandrum</li>
+                            <li class="experiences"><span class="experiencename">Drishti Media Team</span><br>College Of Engineering Trivandrum</li>
+                            <li class="experiences"><span class="experiencename">Dhwani Design Team</span><br>College Of Engineering Trivandrum</li>
+                        </ul>
+                    </div>
+                    <div class="tab-content educationtab">
+                        <ul>
+                            <li class="education-list"><span class="institute">KMBVM POTTORE</span><br>Class 10 <br>Class 12</li>
+                            <li class="education-list"><span class="institute">College Of Engineering Trivandrum</span><br>B.Tech CSE</li>
+                        </ul>
+                    </div>
+
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="projects">
+        <div class="container">
+            <h2 class="section-heading">Projects</h2>
+            <div class="project-grid">
+                
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="contact">
+        <div class="container3">
+            <h2 class="section-heading">Contact Me</h2>
+            <p>If you'd like to work together or have any inquiries, feel free to reach out.</p>
+            <div class="contact-details">
+                <p>Email: <a href="mailto:achyuthammanath@gmail.com">achyuthammanath@gmail.com</a></p>
+                <p>Phone: <a href="tel:+919995010943">+91 99950 10943</a></p>
+                <p>LinkedIn: <a href="https://www.linkedin.com/in/achyuth-ammanath/" target="_blank"> Click Here</a></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
