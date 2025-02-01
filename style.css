@@ -371,7 +371,7 @@ nav ul li a:not(:hover)::after {
 }
 
 /* Media Queries */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 924px) {
     /* Navigation */
     .nav-toggle {
         display: block;
@@ -416,7 +416,7 @@ nav ul li a:not(:hover)::after {
 
     .intro {
         margin-top: 40%;
-        margin-left: 5%;
+        margin-left: 25%;
         font-size: 35px;
         flex-direction: column;
     }
@@ -425,6 +425,12 @@ nav ul li a:not(:hover)::after {
         font-size: 35px;
         right: 0;
         top: 20px;
+        margin-top: 10x;
+    }
+
+    .intro span::after{
+        margin-top: 9px;
+        height: 78%;
     }
 
     .cvdown {
@@ -436,6 +442,7 @@ nav ul li a:not(:hover)::after {
         margin-left: 0;
         width: 180px;
         height: 50px;
+        margin-top: 80px;
     }
 
     /* About Section */
