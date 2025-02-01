@@ -49,7 +49,7 @@ const projects = [
     {
         title: "Simple Blog app - React",
         image: "./images/work-2.png",
-        description: "A blog application built using React and modern web technologies",
+        description: "A blog application built using React",
         
     }
 ];
