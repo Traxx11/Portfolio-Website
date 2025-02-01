@@ -44,13 +44,13 @@ const projects = [
         title: "Portfolio Website",
         image: "./images/work-1.png",
         description: "Personal portfolio website built with HTML, CSS, and JavaScript",
-        link: "#"
+        
     },
     {
         title: "Simple Blog app - React",
         image: "./images/work-2.png",
         description: "A blog application built using React and modern web technologies",
-        link: "#"
+        
     }
 ];
 
@@ -66,7 +66,7 @@ function loadProjects() {
             <img src="${project.image}" alt="${project.title}">
             <h3>${project.title}</h3>
             <p>${project.description}</p>
-            ${project.link ? `<a href="${project.link}" target="_blank">View Project</a>` : ''}
+            
         `;
         
         projectContainer.appendChild(projectCard);
