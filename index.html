@@ -13,19 +13,24 @@
     <div id="home">
         <div class="container1">
             <nav>
-                <a href="#"><img src="images/Untitled-logo.png" class="logo"></a>
+                <a href="#"><img src="images/Untitled-logo.png" class="logo" alt="Logo"></a>
+                <div class="nav-toggle" onclick="toggleMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
                 <ul>
-                    <li><a href="#home">HOME</a></li>
-                    <li><a href="#about">ABOUT</a></li>
-                    <li><a href="#projects">PROJECTS</a></li>
-                    <li><a href="#contact">CONTACT</a></li>
+                    <li><a href="#home" onclick="closeMenu()">HOME</a></li>
+                    <li><a href="#about" onclick="closeMenu()">ABOUT</a></li>
+                    <li><a href="#projects" onclick="closeMenu()">PROJECTS</a></li>
+                    <li><a href="#contact" onclick="closeMenu()">CONTACT</a></li>
                 </ul>
             </nav>
             <div class="intro">
                 Hi, I'm Achyuth <br>and I am a <span></span>
             </div>
             <div class="cvdown">
-                <a href="images\RESUME January 2025.pdf" download="RESUME_January_2024.pdf">
+                <a href="images/RESUME January 2025.pdf" download="RESUME_January_2024.pdf">
                     <button>Download my CV</button>
                 </a>
             </div>
@@ -36,7 +41,7 @@
         <div class="container2">
             <div class="row">
                 <div class="about1">
-                    <img src="images/20240811170947_IMG_7762.JPG" class="aboutimg">
+                    <img src="images/20240811170947_IMG_7762.JPG" class="aboutimg" alt="Profile Photo">
                 </div>
                 <div class="about2">
                     <h2 class="aboutheading">About Me</h2>
@@ -53,7 +58,7 @@
                         <ul>
                             <li class="skillList"><span class="skillname">Web Development</span><br>Design and developing responsive websites</li>
                             <li class="skillList"><span class="skillname">Designer</span><br>Creative and beautiful graphic designs</li>
-                            <li class="skillList"><span class="skillname">Editor</span><br> Edit videos and photos</li>
+                            <li class="skillList"><span class="skillname">Editor</span><br>Edit videos and photos</li>
                         </ul>
                     </div>
                     <div class="tab-content experiencetab">
@@ -69,8 +74,6 @@
                             <li class="education-list"><span class="institute">College Of Engineering Trivandrum</span><br>B.Tech CSE</li>
                         </ul>
                     </div>
-
-                </div>
                 </div>
             </div>
         </div>
@@ -80,8 +83,7 @@
         <div class="container">
             <h2 class="section-heading">Projects</h2>
             <div class="project-grid">
-                
-            </div>
+                <!-- Projects will be loaded dynamically via JavaScript -->
             </div>
         </div>
     </div>
@@ -93,7 +95,7 @@
             <div class="contact-details">
                 <p>Email: <a href="mailto:achyuthammanath@gmail.com">achyuthammanath@gmail.com</a></p>
                 <p>Phone: <a href="tel:+919995010943">+91 99950 10943</a></p>
-                <p>LinkedIn: <a href="https://www.linkedin.com/in/achyuth-ammanath/" target="_blank"> Click Here</a></p>
+                <p>LinkedIn: <a href="https://www.linkedin.com/in/achyuth-ammanath/" target="_blank">Click Here</a></p>
             </div>
         </div>
     </div>
