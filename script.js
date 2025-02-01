@@ -24,8 +24,8 @@ function removeactivetab(){
 
 // Project Dynamic Content
 const projects = [
-    { title: "Portfolio Website", image: "./images/work-1.png", link: "#" },
-    { title: "Simple Blog app - React", image: "./images/work-2.png", link: "https://traxx11.github.io/Portfolio-Website/" }
+    { title: "Portfolio Website", image: "./images/work-1.png"},
+    { title: "Simple Blog app - React", image: "./images/work-2.png", }
 ];
 
 function loadProjects() {
@@ -36,7 +36,7 @@ function loadProjects() {
         projectCard.innerHTML = `
             <img src="${project.image}" alt="${project.title}">
             <h3>${project.title}</h3>
-            <a href="${project.link}" target="_blank">View Project</a>
+            
         `;
         projectContainer.appendChild(projectCard);
     });
